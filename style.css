@@ -1,0 +1,116 @@
+.ene{
+    background-image: url(https://www.purecreationsstudio.com/images/food/professional-food-photography-hd.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.nav
+{
+    font-size:25px;
+    position:sticky;
+    
+}
+.header{
+    justify-content: space-evenly;
+    float:right;
+    display:flex;
+    padding:2%;
+    
+}
+.of{
+    background-image: url(https://www.theaureview.com/au-content/uploads/2021/08/Heston-Fable-Burger-Smoke-2.png);
+    background-repeat:no-repeat ;
+   background-size: cover;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:antiquewhite;
+    padding:5px;
+}
+.header :hover{
+    color: crimson;
+    border:1px solid palevioletred;
+    background-color:chartreuse;
+    border-radius:10px 10px 10px 10px;
+    
+    
+}
+.box2
+{
+    text-align: center;
+   margin-top:-20%;
+    font-size:30px;
+    color:white;
+}
+.box1
+{
+    height:400px;
+    width:400px;
+    margin:auto;
+    font-size:30px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.488);
+    border-radius:10px 10px 10px 10px;
+    text-align:center;
+    margin-top:5%;
+    
+}
+.ene:hover{
+animation: color 1s infinite;
+}
+@keyframes color
+{
+    0%
+    {
+        background-image: url('https://i.pinimg.com/originals/1d/b5/16/1db516c6ddbc4fb1f4048f51cb7525d7.jpg');
+    }
+    25%
+    {
+        background-image:url('https://ychef.files.bbci.co.uk/976x549/p04tx3m6.jpg');
+    }
+    50%
+    {
+        background-image:url('https://www.happywedding.app/blog/wp-content/uploads/2019/02/Capturing-the-food-photography-an-important-part-of-wedding-photography.jpg');
+    }
+    75%
+    {
+       background-image:url('https://www.fotor.com/blog/wp-content/uploads/2020/07/steak-1024x684.jpg');
+    }
+    100%
+    {
+        background-image:url('https://inspgr.id/app/uploads/2019/12/photography-pavel-sablya-01.jpg');
+    }
+}
+label{
+    display:block;
+    margin:0.5 rem 0;
+}
+ .container
+{
+    padding:16px;
+    height:500px;
+    width:700px;
+    border-radius: 10px 10px 10px 10px;
+    animation-duration:0s;
+    background-color:blanchedalmond;
+    
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.cancelbtn, .signupbtn {
+    float: left;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.submitbtn {
+    padding: 14px 20px;
+    background-color: green;
+}
+

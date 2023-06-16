@@ -1,0 +1,100 @@
+.head
+{
+    position:sticky;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100px;
+    border:1px solid deeppink;
+}
+h2{
+    color:pink;
+}
+.first{
+   position:sticky;
+    justify-content: space-evenly;
+    display:flex;
+}
+.first img
+{
+    border-radius:50%;
+}
+.second{
+    position:sticky;
+     justify-content: space-evenly;
+     display:flex;
+     margin-top:5%;
+ }
+ .second img
+ {
+     border-top-left-radius: 25%;
+     border-top-right-radius: 25%;
+     border-bottom-left-radius: 25%;
+     border-bottom-right-radius: 25%;
+ }
+.view
+{
+    padding-top:10px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:10px;
+    border:5px solid grey;
+    background-color: lightblue;
+    margin-top: -5%;
+}
+img{
+    border-radius:50%;
+    display:grid;
+
+}
+.figure{
+        border: 1px #cccccc solid;
+        padding: 4px;
+        margin: auto;
+        display:flex;
+        justify-content: space-evenly;
+
+}
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+.colors
+{
+    background-color: aqua;
+    margin-top:20%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width:30%;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+  .center
+  {
+    margin-left:35%;
+    margin-right:35%;
+    
+  }
+
+  .efe{
+    animation: example 1s infinite;
+}
+@keyframes example {
+    0% {background-color:cyan;}
+  25%  {background-color:crimson;}
+  50% {background-color:darkgoldenrod;}
+  100% {background-color:deeppink;}
+}
+
+  
+ 
